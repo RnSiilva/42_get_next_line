@@ -6,7 +6,7 @@
 /*   By: resilva <resilva@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/22 19:54:12 by resilva           #+#    #+#             */
-/*   Updated: 2023/11/02 19:15:45 by resilva          ###   ########.fr       */
+/*   Updated: 2023/11/03 22:02:40 by resilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ char	*get_next_line(int fd)
 // 	int		i;
 // 	int		fd;
 
+// 	i = 0;
 // 	fd = open("foo2.txt", O_RDONLY);
 // 	line = (char *)-1;
 // 	while (line)
