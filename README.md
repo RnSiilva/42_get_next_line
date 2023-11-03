@@ -54,6 +54,19 @@ and, when compiling your code, add the source files and the required flag:
 get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
 ```
 
+## 🌟 Bonus
+
+The project includes a bonus version of get_next_line, which can read from multiple file descriptors at the same time.
+
+To test and compile the bonus, simply run it in the same way as below, adding '_bonus' to the files, for example:
+
+	get_next_line.c -> get_next_line_bonus.c
+
+	get_next_utils.c -> get_next_line_utils_bonus.c
+
+## Grade: 125 / 100
+
+
 ## 📋 Testing
 
 You only have to edit the get_next_line.c file and uncomment the main function and headers inside it.
@@ -64,12 +77,6 @@ Then simply run this command (change "xx" with desired buffer size) :
 gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c && ./a.out
 ```
 
-## 🌟 Bonus
-
-The project includes a bonus version of get_next_line, which can read from multiple file descriptors at the same time.
-
-
-## Grade: 125 / 100
 
 Or you can also use this third party tester to fully test the project
 
